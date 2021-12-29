@@ -32,7 +32,7 @@ Optional parameters for animate.py:
 #### Examples
 Provided in the `examples` directory are some gifs and their corresponding GIFT CSV files (generated with `coords_2021.csv`), which may be previewed as described above.
 - bad_apple_full.gif: obviously
-- bad_apple_10s.gif: just the first 10 seconds
+- bad_apple_14s.gif: just the first 14 seconds
 - amogus.gif: a🅱ogus
 - rickroll_7s.gif: rickroll intro
 - circle.gif: just a static red circle. Good to find the right angle on the tree to look from for the other gifs.
