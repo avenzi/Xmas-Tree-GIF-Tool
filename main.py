@@ -66,7 +66,7 @@ class GifTranslator:
         ratio = (self.points_height[1]-self.points_height[0]) / (self.points_width[1]-self.points_width[0])
 
         if verbose:
-            print('\nCONTRUCTING GIF')
+            print()
             print('coords height:', self.points_height)
             print('coords width:', self.points_width)
             print('coords aspect ratio:', ratio)
@@ -188,7 +188,7 @@ class Animation:
             header.append(f"B_{i}")
         header = ','.join(header)
 
-        np.savetxt(filename, export_array, delimiter=",", fmt='%3d', header=header)
+        np.savetxt(filename, export_array, delimiter=",", fmt='%3d', header=header, comments='')
 
 
 class Visualize:
