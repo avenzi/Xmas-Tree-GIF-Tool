@@ -4,7 +4,7 @@ Convert any given animated gif file into an animation in GIFT CSV format.
 
 #### Convert a Gif:
 - First, run `pip3 install -r requirements.txt` to install the necessary packages.  
-- To convert a gif you will need a CSV file with coordinates of the Xmas tree's LED lights; Matt Parker's 2021 coordinates are given in `coords_2021.csv`.  
+- To convert a gif you will need a CSV file with coordinates of the Xmas tree's LED lights; Matt Parker's 2021 coordinates are given in `examples/coords_2021.csv`.  
 - Run this command:  `python3 convert.py <path_to_coords.csv> <path_to_gif.gif>`
 - The output will be a CSV file in GIFT format which animates the given gif file according to the given LED coordinates.  
 - In order to see the gif as clearly as possible, you need to look directly at the tree head-on from the positive X direction (as was discussed [here](https://github.com/standupmaths/xmastree2021/issues/21#issuecomment-1002297485)).
