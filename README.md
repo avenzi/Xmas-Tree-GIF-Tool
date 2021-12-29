@@ -19,7 +19,7 @@ Some optional parameters for convert.py:
 
 
 #### Previewing a CSV file
-This repo also provides the ability to preview a CSV file.
+This repo also provides the ability to preview a GIFT CSV file.
 - pip install requirements if not already
 - run: `python3 animate.py <path_to_coords.csv> <path_to_animation.csv>`
 - The result *should* be matplotlib's animated 3D dialog box running the animation.
@@ -35,4 +35,4 @@ Provided in the `examples` directory are some gifs and their corresponding GIFT 
 - bad_apple_14s.gif: just the first 14 seconds
 - amogus.gif: a🅱ogus
 - rickroll_7s.gif: rickroll intro
-- circle.gif: just a static red circle. Good to find the right angle on the tree to look from for the other gifs.
+- circle.gif: just a static red circle. Good for finding the right angle from which to look at the tree.
